@@ -46,7 +46,7 @@
 		900B0E57C5E77A2251403C5D /* Pods-SMDDateHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMDDateHelper_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SMDDateHelper_Tests/Pods-SMDDateHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9A5350239FAD6DB76BBC7F22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D779FADA6D94A2694627FB02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D837D0ACBF0034CEEEC8A69A /* SMDDateHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SMDDateHelper.podspec; path = ../SMDDateHelper.podspec; sourceTree = "<group>"; };
+		D837D0ACBF0034CEEEC8A69A /* SMDDateHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SMDDateHelper.podspec; path = ../SMDDateHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,7 +216,7 @@
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = 5E2TJD2K87;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 0830;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -467,6 +467,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -506,6 +507,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

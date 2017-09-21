@@ -9,7 +9,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SMDDateHelper'
   s.version          = '0.1.0'
-  s.xcconfig = { "OTHER_LDFLAGS" => "-lz" }
   s.summary          = 'The best way to handler date, time and timezones in SMD Project with SMDDateHelper'
 
 # This description is used to generate tags and improve search results.
@@ -38,5 +37,5 @@ TODO: 'The best way to handler date, time and timezones in SMD Project with SMDD
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.dependency 'Alamofire', '~> 4.0'
 end
