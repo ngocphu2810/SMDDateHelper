@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Pods_SMDDateHelper_Tests
+
 
 class ViewController: UIViewController {
 

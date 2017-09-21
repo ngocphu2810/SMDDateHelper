@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'SMDDateHelper_Example' do
   pod 'SMDDateHelper'
-
+  
   target 'SMDDateHelper_Tests' do
     inherit! :search_paths
 

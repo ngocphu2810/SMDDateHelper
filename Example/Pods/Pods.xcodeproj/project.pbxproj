@@ -434,13 +434,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04A1326C1F73ACD300698A75 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
 		0CB40F6CB5AD909FF76F768123AB8D6C /* Pods-SMDDateHelper_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -780,7 +773,6 @@
 			isa = PBXGroup;
 			children = (
 				044AB70B1F73A6D300B1E729 /* SDDateHelper.swift */,
-				04A1326C1F73ACD300698A75 /* Classes */,
 			);
 			name = SMDDateHelper;
 			path = ../..;

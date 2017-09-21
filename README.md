@@ -30,11 +30,18 @@ Math with Date:
 let today = Date() // 21-09-2017
 let nextDay = today + 1.day => 22-09-2017 // same with minutes, hours, months, years..
 ```
-Compare between twos Date:
+Compare between Dates:
 ```ruby
 let today = Date() // 21-09-2017
 let nextDay = today + 1.day => 22-09-2017 
 let bool = today < nextDay => return true
+```
+Get Internet time:
+
+```ruby
+SDTime.getTrueTime()
+
+use: let currentInternetTime = SDTime().now
 ```
 
 ## Author

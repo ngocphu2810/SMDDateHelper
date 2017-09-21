@@ -37,5 +37,5 @@ TODO: 'The best way to handler date, time and timezones in SMD Project with SMDD
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'Alamofire', '~> 4.0'
+  # s.dependency 'NTPKit'
 end
