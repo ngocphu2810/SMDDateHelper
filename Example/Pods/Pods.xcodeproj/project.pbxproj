@@ -437,7 +437,6 @@
 		04A1326C1F73ACD300698A75 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				044AB70B1F73A6D300B1E729 /* SDDateHelper.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -780,6 +779,7 @@
 		FAA85515C472736B229E559361371932 /* SMDDateHelper */ = {
 			isa = PBXGroup;
 			children = (
+				044AB70B1F73A6D300B1E729 /* SDDateHelper.swift */,
 				04A1326C1F73ACD300698A75 /* Classes */,
 			);
 			name = SMDDateHelper;
