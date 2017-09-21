@@ -17,7 +17,7 @@ SMDDateHelper is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SMDDateHelper'
+pod 'SMDDateHelper' => "https://github.com/pdn1905/SMDDateHelper"
 ```
 
 ## Author
