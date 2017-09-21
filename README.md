@@ -20,9 +20,26 @@ it, simply add the following line to your Podfile:
 pod 'SMDDateHelper' => "https://github.com/pdn1905/SMDDateHelper"
 ```
 
+How to use:
+```ruby
+Import SMDDateHelper
+```
+
+Math with Date:
+```ruby
+let today = Date() // 21-09-2017
+let nextDay = today + 1.day => 22-09-2017 // same with minutes, hours, months, years..
+```
+Compare between twos Date:
+```ruby
+let today = Date() // 21-09-2017
+let nextDay = today + 1.day => 22-09-2017 
+let bool = today < nextDay => return true
+```
+
 ## Author
 
-pdn1905, ngoc.phan@smartdev.vn
+NgocPhan, ngoc.phan@smartdev.vn
 
 ## License
 

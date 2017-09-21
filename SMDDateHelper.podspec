@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SMDDateHelper'
   s.version          = '0.1.0'
-  s.summary          = 'The best way to handler date, time and timezones in SMD Project with SMDDateHelper'
+  s.summary          = 'The best way to handler date, time and get True time with SMDDateHelper'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
