@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044AB70C1F73A6D300B1E729 /* SDDateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AB70B1F73A6D300B1E729 /* SDDateHelper.swift */; };
 		047A68C646E00EB6D7D4D7343B801D09 /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4846C1280F7FCC383265584085BAB875 /* AdapterProtocols.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		04F737B61F739D41003897B2 /* SDDateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F737B51F739D41003897B2 /* SDDateHelper.swift */; };
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F8012AD8A72934F350BDA8C90157813 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		055835A025E38405EA9EC5218E6FE1E3 /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7510C71C3B6495347C01469BB81376A6 /* ExampleMetadata.swift */; };
 		07722FBCF6B380961B9D2832D5883F45 /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F8491C368290A8B20C9EF13A6C6EE6 /* BeGreaterThan.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -203,8 +203,8 @@
 /* Begin PBXFileReference section */
 		006ED45CA89BF1184872D135803B008C /* Contain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contain.swift; path = Sources/Nimble/Matchers/Contain.swift; sourceTree = "<group>"; };
 		03F296C4A593A03240EAC157F47687C9 /* CwlDarwinDefinitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlDarwinDefinitions.swift; path = Sources/Lib/CwlPreconditionTesting/CwlPreconditionTesting/CwlDarwinDefinitions.swift; sourceTree = "<group>"; };
+		044AB70B1F73A6D300B1E729 /* SDDateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SDDateHelper.swift; path = SMDDateHelper/SDDateHelper.swift; sourceTree = "<group>"; };
 		047E159509F3AF832044548E26FF0112 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		04F737B51F739D41003897B2 /* SDDateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDDateHelper.swift; sourceTree = "<group>"; };
 		06C301E6CBB530F76B07ADC535E93109 /* Nimble.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nimble.xcconfig; sourceTree = "<group>"; };
 		0A7E756AD1BF0435FA50430ED8652004 /* QuickConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickConfiguration.m; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.m; sourceTree = "<group>"; };
 		0AB3A49F2F919C4A0822DA6F4BB67C0F /* NMBExceptionCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBExceptionCapture.m; path = Sources/NimbleObjectiveC/NMBExceptionCapture.m; sourceTree = "<group>"; };
@@ -434,22 +434,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04F737B31F739D22003897B2 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				04F737B41F739D29003897B2 /* Classes */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		04F737B41F739D29003897B2 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				04F737B51F739D41003897B2 /* SDDateHelper.swift */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
 		0CB40F6CB5AD909FF76F768123AB8D6C /* Pods-SMDDateHelper_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -788,7 +772,7 @@
 		FAA85515C472736B229E559361371932 /* SMDDateHelper */ = {
 			isa = PBXGroup;
 			children = (
-				04F737B31F739D22003897B2 /* Pod */,
+				044AB70B1F73A6D300B1E729 /* SDDateHelper.swift */,
 			);
 			name = SMDDateHelper;
 			path = ../..;
@@ -1139,7 +1123,7 @@
 			files = (
 				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
 				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
-				04F737B61F739D41003897B2 /* SDDateHelper.swift in Sources */,
+				044AB70C1F73A6D300B1E729 /* SDDateHelper.swift in Sources */,
 				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
 				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
 				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
