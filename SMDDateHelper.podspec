@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'SMDDateHelper'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SMDDateHelper.'
+  s.xcconfig = { "OTHER_LDFLAGS" => "-lz" }
+  s.summary          = 'The best way to handler date, time and timezones in SMD Project with SMDDateHelper'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +19,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 'The best way to handler date, time and timezones in SMD Project with SMDDateHelper'
                        DESC
 
-  s.homepage         = 'https://github.com/pdn1905/SMDDateHelper'
+  s.homepage         = 'https://github.com/pdn1905/SMDDateHelper.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pdn1905' => 'ngoc.phan@smartdev.vn' }
@@ -29,7 +30,6 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'SMDDateHelper/Classes/**/*'
   
   # s.resource_bundles = {

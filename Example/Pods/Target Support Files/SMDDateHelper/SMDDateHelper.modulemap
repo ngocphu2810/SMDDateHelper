@@ -1,0 +1,6 @@
+framework module SMDDateHelper {
+  umbrella header "SMDDateHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

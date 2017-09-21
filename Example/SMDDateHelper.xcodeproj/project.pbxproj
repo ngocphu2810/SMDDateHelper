@@ -44,9 +44,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7720589FE161068EEED2A4A6 /* Pods-SMDDateHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMDDateHelper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SMDDateHelper_Example/Pods-SMDDateHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		900B0E57C5E77A2251403C5D /* Pods-SMDDateHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMDDateHelper_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SMDDateHelper_Tests/Pods-SMDDateHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9A5350239FAD6DB76BBC7F22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D779FADA6D94A2694627FB02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D837D0ACBF0034CEEEC8A69A /* SMDDateHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SMDDateHelper.podspec; path = ../SMDDateHelper.podspec; sourceTree = "<group>"; };
+		9A5350239FAD6DB76BBC7F22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D779FADA6D94A2694627FB02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D837D0ACBF0034CEEEC8A69A /* SMDDateHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SMDDateHelper.podspec; path = ../SMDDateHelper.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +215,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5E2TJD2K87;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -514,6 +515,7 @@
 			baseConfigurationReference = 22EDD1BDB4402037FB3AED6A /* Pods-SMDDateHelper_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5E2TJD2K87;
 				INFOPLIST_FILE = SMDDateHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -528,6 +530,7 @@
 			baseConfigurationReference = 7720589FE161068EEED2A4A6 /* Pods-SMDDateHelper_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5E2TJD2K87;
 				INFOPLIST_FILE = SMDDateHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
